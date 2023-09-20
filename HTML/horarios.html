@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <head>
+        <style>
+        
+            .moving-text {
+                font-size: 48px;
+                color: rgb(0, 0, 0);
+                animation: moveText 5s linear infinite;
+                width: 70%;
+                margin-top:300px;
+                z-index:1;
+                position: relative;
+            }
+            
+            @keyframes moveText {
+                0% {
+                    transform: translateX(0);
+                }
+                100% {
+                    transform: translateX(100%);
+                }
+            }
+            .th{
+                background-color: rgb(124, 255, 2);
+            }
+        </style>
+         <div class="moving-text">
+            <th>
+                <strong> Horario de entrenamiento </strong>
+            </th>
+           
+        </div>
+        </style>
+
+        <style>
+
+          
+          table {
+            width: 60%;
+            border-collapse: separate;
+            margin-top: 30px;
+            margin-left: 400px;
+            z-index: 2;
+            position: absolute;
+            
+          }
+          th, td {
+            padding: 20px;
+            text-align: center;
+            border-bottom: 1px solid #000000;
+            border-top: #000000;
+      
+          }
+          th {
+            background-color: #5055727e;
+          }
+        </style>
+      </head>
+      <body>
+    
+        <table>
+          <tr>
+            <th>Hora</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miércoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+            <th>Sabado</th>
+            <th>Domingo</th>
+          </tr>
+          <tr>
+            <td>5:00 pm - 6:00 pm</td>
+            <td>Categoria sub 15-17</td>
+            <td>Descanso</td>
+            <td>Descanso</td>
+            <td>Categoria sub 15-17</td>
+            <td>Descanso</td>
+            <td>Categoria sub 15-17</td>
+            <td>Partido categoria sub 15-17</td>
+          </tr>
+          <tr>
+            <td>5:00 pm - 6:00 pm</td>
+            <td>Descanso</td>
+            <td>Categoria sub 8-12</td>
+            <td>Categoria sub 8-12</td>
+            <td>Descanso</td>
+            <td>Descanso</td>
+            <td>Categoria sub 8-12</td>
+            <td>Partido categoria sub 8-12</td>
+          </tr>
+          
+        </table>
+</body>
+
+<header>
+    <a href="#" class="logo">
+        <h2 class="logonombre">E-CLUB</h2>
+        <img src="../IMG/foto.png" alt="logo de la compañia" class="logo-img">
+
+    </a>
+    <nav class="barra">
+        <a href="" class="nav-link">Entrenamientos</a>
+        <a href="" class="nav-link">Galeria</a>
+        <a href="" class="nav-link">Ubicación de canchas </a>
+
+
+    </nav>
+</header>
+
+<style>
+    header{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    padding: 10px;
+    margin-top: -19%;
+    margin-left: -8px;
+    position: absolute;
+    z-index: 3;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo-img{
+    height: 75px;
+    margin-left: 2px;
+
+}
+
+.logonombre{
+    margin-left: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+ 
+.barra{
+   font-weight: 600;
+   padding-right: 50px;
+   font-size: 25px;
+
+
+}
+
+.barra :hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.nav-link{
+    padding-right: 30px;
+}
+
+</style>
+</html>
