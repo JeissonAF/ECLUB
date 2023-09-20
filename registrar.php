@@ -2,7 +2,6 @@
 include("conexion.php");
 if (!empty($_POST['nombre']) && !empty($_POST['apellido']) && !empty($_POST['genero']) && !empty($_POST['tipdoc']) && !empty($_POST['numdoc']) && !empty($_POST['rol']) && !empty($_POST['correo']) && !empty($_POST['contrasena'])) {
 
-
     $name = $_POST['nombre'];
     $apell = $_POST['apellido'];
     $gen = $_POST['genero'];
@@ -24,7 +23,6 @@ if (!empty($_POST['nombre']) && !empty($_POST['apellido']) && !empty($_POST['gen
     $stmt->bindParam(":corr",$email);
     $stmt->bindParam(":pass",$pass);
 
-    
     if ($stmt->execute()){
         header("location: login.php");
 }
