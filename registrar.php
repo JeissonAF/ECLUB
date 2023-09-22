@@ -1,6 +1,7 @@
 <?php
 include("conexion.php");
 if (!empty($_POST['nombre']) && !empty($_POST['apellido']) && !empty($_POST['genero']) && !empty($_POST['tipdoc']) && !empty($_POST['numdoc']) && !empty($_POST['rol']) && !empty($_POST['correo']) && !empty($_POST['contrasena'])) {
+  
 
     
     $name = $_POST['nombre'];
