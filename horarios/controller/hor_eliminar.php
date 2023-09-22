@@ -6,7 +6,7 @@ session_start();
     $resultado = mysqli_query($con,$eliminar); 
     /* ELIMINADO */
     if ($resultado){
-    $_SESSION['mensaje'] = 'Empleado eliminado';
+    $_SESSION['mensaje'] = 'Horario eliminado';
     $_SESSION['tipo'] = 'danger';
     header('location:../view/horario.php');
 }
