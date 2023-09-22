@@ -22,7 +22,7 @@ if(isset($_POST['modificar'])){
         $resultado = mysqli_query($db,$modificar); 
         /* SUBIDO */
         if ($resultado){
-        $_SESSION['mensaje'] = 'Datos de empleado modificados exitosamente!';
+        $_SESSION['mensaje'] = 'Datos del horario modificados exitosamente!';
         $_SESSION['tipo'] = 'success';
         header('location:../view/admin/empleados.php');
     }

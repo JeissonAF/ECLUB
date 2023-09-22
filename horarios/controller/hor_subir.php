@@ -12,11 +12,11 @@ if(isset($_POST['subir'])){
     if(!empty($_POST['dia']) && !empty($_POST['horini']) && !empty($_POST['horfin']) && !empty($_POST['event']) && !empty($_POST['cat'])){
         include_once('../model/horario_subir.php');
          if($resultado){
-            $_SESSION['mensaje'] = 'Empleado agregado exitosamente!';
+            $_SESSION['mensaje'] = 'Horario agregado exitosamente!';
             $_SESSION['tipo'] = 'success';
             header('location:../view/horario.php');
          }else{
-            $_SESSION['mensaje'] = 'ocurrio un error en el servidor';
+            $_SESSION['mensaje'] = 'Ocurrió un error en el servidor';
             $_SESSION['tipo'] = 'danger';
             header('location:../view/horario.php');
          }
