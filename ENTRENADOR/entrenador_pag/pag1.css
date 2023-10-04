@@ -202,3 +202,36 @@ h2{
     color: #FDFEFF;
     margin-bottom: 15px;
 } */
+
+.price{
+    padding: 0 0 120px 0;
+    text-align: center;
+}
+.price-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+.price-1{
+    flex-basis: calc(33.3% - 20px);
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.pack{
+    color: #FDFEFF;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.price-1 h3{
+    color: #FDEFFF;
+    font-size: 70px;
+}
+.bg-pack{
+    background: linear-gradient(
+        rgba(37, 118, 250,1) 0%
+        rgba(84,115,237,1) 68%
+    );
+}
