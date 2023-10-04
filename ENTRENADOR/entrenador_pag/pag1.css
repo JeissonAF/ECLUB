@@ -167,3 +167,28 @@ h2{
     font-size: 15px;
 }
 
+.services{
+    padding: 0 0 120px 0;
+    text-align: center;
+}
+.services-content{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.services-1{
+    background-color: #1E202D;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.services-1:hover{
+    background: linear-gradient(
+        rgba(84, 105, 210,1) 0%
+        rgba(35,43,88,1) 68%
+    );
+}
