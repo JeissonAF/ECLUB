@@ -63,3 +63,40 @@ img{
 .menu-icono{
     width: 25px;
 }
+.menu.label{
+    cursor: pointer;
+    display: none;
+}
+
+.header-txt{
+    text-align: center;
+    padding: 0 150px;
+}
+.header-txt h1{
+    font-size: 55px;
+    line-height: 1;
+    color: #FFF;
+    margin-bottom: 25px;
+}
+span{
+    color: antiquewhite;
+
+}
+p{
+    font-size: 17px;
+    color: bisque;
+    margin-bottom: 35px;
+}
+.butons{
+    display: flex;
+    justify-content: center;
+}
+.btn-1{
+    display: inline-block;
+    padding: 11px 35px;
+    background: linear-gradient(
+        90deg,
+        rgba(37, 118, 250,1) 0%
+        rgba(84,115,237,1)100%
+    );
+}
