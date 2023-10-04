@@ -137,3 +137,25 @@ p{
         rgba(84,115,237,1)100%
     );
 }
+
+.about{
+    padding: 120px 0;
+    display: flex;
+    align-items: center;
+}
+.about-img{
+    flex-basis: 50%;
+}
+.about-img img{
+    width: 500px;
+    border-radius: 15px;
+}
+.about-txt{
+    flex-basis: 50%;
+}
+h2{
+    font-size: 40px;
+    color: #FDFEFF;
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
