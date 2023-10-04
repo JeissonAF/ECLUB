@@ -235,3 +235,10 @@ h2{
         rgba(84,115,237,1) 68%
     );
 }
+.pack-center{
+    color: #FDFEFF;
+}
+.price-1 li{
+    color: #FDFEFF;
+    margin-bottom: 15px;
+}
