@@ -99,4 +99,36 @@ p{
         rgba(37, 118, 250,1) 0%
         rgba(84,115,237,1)100%
     );
+    color: #FFF;
+    margin: 0 15px;
+}
+.information{
+    display: flex;
+    justify-content: space-between;
+    padding: 1 100px;
+    margin-top: -70px;
+}
+.information-1{
+    margin: 0 10px;
+    background: linear-gradient(
+        rgba(84, 105, 210,1) 0%
+        rgba(35,43,88,1) 68%
+    );
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.information-1 h3{
+    color: #FDFEFF;
+    font-size: 18px;
+}
+.information-1 p{
+    margin-bottom: 5px;
+}
+
+.information-1 a{
+    color: #FDFEFF;
+}
+.information-1:hover{
+    cursor: pointer;
 }
