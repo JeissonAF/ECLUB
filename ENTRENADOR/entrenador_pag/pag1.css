@@ -191,4 +191,14 @@ h2{
         rgba(84, 105, 210,1) 0%
         rgba(35,43,88,1) 68%
     );
+    cursor: pointer;
+}
+.services-1 img{
+    width: 30px;
+    margin-bottom: 10px;
+}
+
+.services-1 h3{
+    color: #FDFEFF;
+    margin-bottom: 15px;
 }
