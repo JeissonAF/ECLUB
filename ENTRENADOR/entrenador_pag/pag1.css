@@ -159,3 +159,11 @@ h2{
     line-height: 1.4;
     margin-bottom: 15px;
 }
+.about-txt a{
+    margin: 0;
+}
+.intro{
+    color: #687CEF;
+    font-size: 15px;
+}
+
