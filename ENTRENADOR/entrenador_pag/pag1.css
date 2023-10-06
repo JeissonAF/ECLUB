@@ -79,7 +79,7 @@ img{
     margin-bottom: 25px;
 }
 span{
-    color: antiquewhite;
+    color: rgb(202, 191, 191);
 
 }
 p{
@@ -94,13 +94,13 @@ p{
 .btn-1{
     display: inline-block;
     padding: 11px 35px;
-    background: linear-gradient(
-        90deg,
-        rgba(37, 118, 250,1) 0%
-        rgba(84,115,237,1)100%
-    );
+    background: black;
     color: #FFF;
     margin: 0 15px;
+}
+.btn-1:hover{
+    background: #FFF;
+    color: black;
 }
 .information{
     display: flex;
@@ -110,32 +110,32 @@ p{
 }
 .information-1{
     margin: 0 10px;
-    background: linear-gradient(
-        rgba(84, 105, 210,1) 0%
-        rgba(35,43,88,1) 68%
-    );
+    background:#FFF;
     padding: 15px;
     border-radius: 15px;
+    color: #FFF;
 }
 
 .information-1 h3{
-    color: #FDFEFF;
+    color:black;
     font-size: 18px;
 }
+
 .information-1 p{
     margin-bottom: 5px;
+    color: burlywood;
 }
 
 .information-1 a{
-    color: #FDFEFF;
+    color: #000000;
+}
+.information-1 a:hover{
+    color: rgb(40, 54, 54);
 }
 .information-1:hover{
     cursor: pointer;
-    background: linear-gradient(
-        90deg,
-        rgba(37, 118, 250,1) 0%
-        rgba(84,115,237,1)100%
-    );
+  /* background-color: #000000;
+  color: #ff0000; */
 }
 
 .about{
@@ -178,7 +178,7 @@ h2{
     gap: 30px;
 }
 .services-1{
-    background-color: #1E202D;
+    background-color: #ffffff00;
     box-shadow: 0 0 20px rgba(0,0,0,0.4); 
     padding: 35px;
     display: flex;
@@ -187,10 +187,7 @@ h2{
     align-items: center;
 }
 .services-1:hover{
-    background: linear-gradient(
-        rgba(84, 105, 210,1) 0%
-        rgba(35,43,88,1) 68%
-    );
+  background-color: rgb(255, 255, 255);
     cursor: pointer;
  }
 /* .services-1 img{
@@ -201,7 +198,7 @@ h2{
 .services-1 h3{
     color: #FDFEFF;
     margin-bottom: 15px;
-} */ */
+} */ 
 
 .price{
     padding: 0 0 120px 0;
@@ -232,7 +229,7 @@ h2{
 .bg-pack{
     background: linear-gradient(
         rgba(37, 118, 250,1) 0%
-        rgba(84,115,237,1) 68%
+        rgba(84,115,237,1) 100%
     );
 }
 .pack-center{
@@ -241,4 +238,116 @@ h2{
 .price-1 li{
     color: #FDFEFF;
     margin-bottom: 15px;
+}
+.footer{
+    background-color: #151521;
+    padding: 50px 0;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+.link h3{
+    color: #FDFEFF;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.link a{
+    color: #FDFEFF;
+    display: block;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.link a:hover{
+    color: #687CEF;
+
+}
+
+
+@media(max-width: 991px){
+    .menu{
+        padding: 20px;
+    }
+    .menu label{
+        display: initial;
+    }
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #687CEF;
+        display: none;
+    }
+    .menu .navbar ul li a:hover{
+        color: #151521;
+    }
+    .menu .navbar ul li{
+        width: 100%;
+    }
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+    .header{
+        min-height: 0vh;
+        padding: 80px 30px 50px 30px;
+    }
+    .header-txt{
+        padding: 0;
+    }
+    .header-txt h1{
+       font-size: 45px; 
+    }
+    .butons{
+        flex-direction: column;
+        padding: 0 50px;
+    }
+    .btn-1{
+        margin: 0 0 20px 0;
+    }
+    .information{
+        margin-top: 0;
+        padding: 30px;
+        flex-direction: column;
+    }
+    .information-1{
+        margin: 0 0 20px 0;
+    }
+    .about{
+        padding: 0 30px 30px 30px;
+        flex-direction: column;
+    }
+    .about-txt{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .about-img{
+        order: 1;
+    }
+    .services{
+        padding: 0 30px 30px 30px;
+    }
+    .services-content{
+        margin-top: 30px;
+        grid-template-columns: repeat(1 , 1fr);
+    }
+    .price{
+        padding: 30px;
+    }
+    .price-content{
+        flex-direction: column;
+    }
+    .price-1{
+        margin-bottom: 30px;
+    }
+    .footer{
+        padding: 30px;
+    }
+    .footer-content{
+        flex-direction: column;
+        text-align: center;
+    }
+    .link{
+        margin-bottom: 10px;
+    }
 }
