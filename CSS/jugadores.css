@@ -1,3 +1,4 @@
+
 header{
     display: flex;
     justify-content: space-between;
@@ -59,14 +60,10 @@ a{
 
 .contenedor{
     display: flex;
-    margin-top: 200px;
-   
+    z-index: 2;
     background-color: rgba(85, 85, 85, 0.247);
-    padding: 25px;
     position: absolute;
-    font-size: 20px;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin: 200px 400px 0px 400px;
     box-shadow: 5px 10px 50px 5px #000;
 }
 
@@ -86,23 +83,18 @@ a{
  /* Segunda imagen  */
 
  .contenedor2{
-    display: flex;
-    margin-top: 700px;
-    
+    display: flex;    
     background-color: rgba(85, 85, 85, 0.247);
-    padding: 25px;
+    /* padding: 25px; */
     position: absolute;
     font-size: 20px;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin: 700px 400px 0px 400px;
     box-shadow: 5px 10px 50px 5px #000;
 }
 
 .cuadro2{
     width: 600px;
-    height: 400px;
-    margin-right: 50px;
-    
+    height: 400px;    
 }
 
 .text2{
@@ -115,15 +107,10 @@ a{
 
  .contenedor3{
     display: flex;
-    margin-top: 1200px;
-   
     background-color: rgba(85, 85, 85, 0.247);
-    padding: 25px;
     position: absolute;
     font-size: 20px;
-    margin-left: 400px;
-    margin-right: 400px;
-    margin-bottom: 20px;
+    margin: 1200px 400px 20px 400px;
     box-shadow: 5px 10px 50px 5px #000;
 }
 
@@ -155,18 +142,175 @@ footer{
 }
 
 
-@media screen and (max-width: 991px) {
-    .hide, .hide-tablet {
-        display: none !important;
+@media screen and (max-width: 1670px) {
+    header{
+        display: flex;
+        font-weight: 10em;
+    }
+    .contenedor{
+        display: flex;
+        width: 1000px;
+        margin-left: 350px;
+
+    }
+
+    .cuadro{
+        width: 500px;
+        height: 450px;
+        position: relative;
+    }
+
+    .contenedor2{
+        display: flex;
+        width: 1000px;
+        margin-left: 350px;
+
+    }
+
+    .cuadro2{
+        width: 500px;
+        height: 450px;
+        position: relative;
+    }
+
+    .text2{
+        font-size: 28px;
+        margin-left: 10px;
+        margin-top: 2em;
+    }
+
+    .contenedor3{
+        display: flex;
+        width: 1000px;
+        margin-left: 350px;
+
+    }
+
+    .cuadro3{
+        width: 500px;
+        height: 450px;
+        position: relative;
+    }
+
+    .text3{
+        text-align: center;
+        margin-top: 2em;
+    }
+
+}
+
+@media screen and (max-width: 1500px){
+    .contenedor{
+        display: flex;
+        width: 800px;
+        margin-left: 350px;
+        height: 410px;
+    }
+
+    .cuadro{
+        width:380px;
+        height: 410px;
+        position: relative;
+    }
+    .text{
+        font-size: 25px;
+        margin-left: 5px;
+        margin-top: 1em;
+    }
+
+    .contenedor2{
+        display: flex;
+        width: 800px;
+        margin-left: 350px;
+        height: 410px;
+
+    }
+
+    .cuadro2{
+        width:380px;
+        height: 410px;
+        position: relative;
+    }
+    .text2{
+        font-size: 25px;
+        margin-left: 5px;
+        margin-top: 1em;
+    }
+
+    .contenedor3{
+        display: flex;
+        width: 800px;
+        margin-left: 350px;
+        height: 400px;
+
+    }
+
+    .cuadro3{
+        width:380px;
+        height: 400px;
+        position: relative;
+    }
+    .text3{
+        font-size: 25px;
+        margin-left: 5px;
+        margin-top: 1em;
     }
 }
-  @media screen and (max-width: 767px) {
-    .hide-mobile-landscape{
-      display: none !important;
+
+@media screen and (max-width: 1400px){
+    .contenedor{
+        display: flex;
+        width: 800px;
+        margin-left: 300px;
+        height: 410px;
     }
-}
-  @media screen and (max-width: 479px) {
-    .hide-mobile{
-      display: none !important;
+
+    .cuadro{
+        width:380px;
+        height: 410px;
+        position: relative;
+    }
+    .text{
+        font-size: 25px;
+        margin-left: 5px;
+        margin-top: 1em;
+    }
+
+    .contenedor2{
+        display: flex;
+        width: 800px;
+        margin-left: 300px;
+        height: 410px;
+
+    }
+
+    .cuadro2{
+        width:380px;
+        height: 410px;
+        position: relative;
+    }
+    .text2{
+        font-size: 25px;
+        margin-left: 5px;
+        margin-top: 1em;
+    }
+
+    .contenedor3{
+        display: flex;
+        width: 800px;
+        margin-left: 300px;
+        height: 400px;
+
+    }
+
+    .cuadro3{
+        width:380px;
+        height: 400px;
+        position: relative;
+    }
+    .text3{
+        font-size: 25px;
+        margin-left: 5px;
+        margin-top: 1em;
     }
 }
