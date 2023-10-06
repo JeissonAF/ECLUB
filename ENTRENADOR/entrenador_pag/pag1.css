@@ -94,13 +94,13 @@ p{
 .btn-1{
     display: inline-block;
     padding: 11px 35px;
-    background: linear-gradient(
-        90deg,
-        rgba(37, 118, 250,1) 0%
-        rgba(84,115,237,1)100%
-    );
+    background: black;
     color: #FFF;
     margin: 0 15px;
+}
+.btn-1:hover{
+    background: #FFF;
+    color: black;
 }
 .information{
     display: flex;
@@ -110,32 +110,32 @@ p{
 }
 .information-1{
     margin: 0 10px;
-    background: linear-gradient(
-        rgba(84, 105, 210,1) 0%
-        rgba(35,43,88,1) 68%
-    );
+    background:#FFF;
     padding: 15px;
     border-radius: 15px;
+    color: #FFF;
 }
 
 .information-1 h3{
-    color: #FDFEFF;
+    color:black;
     font-size: 18px;
 }
+
 .information-1 p{
     margin-bottom: 5px;
+    color: burlywood;
 }
 
 .information-1 a{
-    color: #FDFEFF;
+    color: #000000;
+}
+.information-1 a:hover{
+    color: black;
 }
 .information-1:hover{
     cursor: pointer;
-    background: linear-gradient(
-        90deg,
-        rgba(37, 118, 250,1) 0%
-        rgba(84,115,237,1)100%
-    );
+  background-color: #000000;
+  color: #ff0000;
 }
 
 .about{
@@ -178,7 +178,7 @@ h2{
     gap: 30px;
 }
 .services-1{
-    background-color: #1E202D;
+    background-color: #ffffff00;
     box-shadow: 0 0 20px rgba(0,0,0,0.4); 
     padding: 35px;
     display: flex;
@@ -187,10 +187,7 @@ h2{
     align-items: center;
 }
 .services-1:hover{
-    background: linear-gradient(
-        rgba(84, 105, 210,1) 0%
-        rgba(35,43,88,1) 68%
-    );
+  background-color: rgb(255, 255, 255);
     cursor: pointer;
  }
 /* .services-1 img{
@@ -201,7 +198,7 @@ h2{
 .services-1 h3{
     color: #FDFEFF;
     margin-bottom: 15px;
-} */ */
+} */ 
 
 .price{
     padding: 0 0 120px 0;
