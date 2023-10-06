@@ -275,6 +275,82 @@ h2{
         display: initial;
     }
     .menu .navbar{
-
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #687CEF;
+        display: none;
+    }
+    .menu .navbar ul li a:hover{
+        color: #151521;
+    }
+    .menu .navbar ul li{
+        width: 100%;
+    }
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+    .header{
+        min-height: 0vh;
+        padding: 80px 30px 50px 30px;
+    }
+    .header-txt{
+        padding: 0;
+    }
+    .header-txt h1{
+       font-size: 45px; 
+    }
+    .butons{
+        flex-direction: column;
+        padding: 0 50px;
+    }
+    .btn-1{
+        margin: 0 0 20px 0;
+    }
+    .information{
+        margin-top: 0;
+        padding: 30px;
+        flex-direction: column;
+    }
+    .information-1{
+        margin: 0 0 20px 0;
+    }
+    .about{
+        padding: 0 30px 30px 30px;
+        flex-direction: column;
+    }
+    .about-txt{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .about-img{
+        order: 1;
+    }
+    .services{
+        padding: 0 30px 30px 30px;
+    }
+    .services-content{
+        margin-top: 30px;
+        grid-template-columns: repeat(1 , 1fr);
+    }
+    .price{
+        padding: 30px;
+    }
+    .price-content{
+        flex-direction: column;
+    }
+    .price-1{
+        margin-bottom: 30px;
+    }
+    .footer{
+        padding: 30px;
+    }
+    .footer-content{
+        flex-direction: column;
+        text-align: center;
+    }
+    .link{
+        margin-bottom: 10px;
     }
 }
