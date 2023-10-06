@@ -79,7 +79,7 @@ img{
     margin-bottom: 25px;
 }
 span{
-    color: antiquewhite;
+    color: rgb(202, 191, 191);
 
 }
 p{
@@ -232,7 +232,7 @@ h2{
 .bg-pack{
     background: linear-gradient(
         rgba(37, 118, 250,1) 0%
-        rgba(84,115,237,1) 68%
+        rgba(84,115,237,1) 100%
     );
 }
 .pack-center{
@@ -241,4 +241,40 @@ h2{
 .price-1 li{
     color: #FDFEFF;
     margin-bottom: 15px;
+}
+.footer{
+    background-color: #151521;
+    padding: 50px 0;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+.link h3{
+    color: #FDFEFF;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.link a{
+    color: #FDFEFF;
+    display: block;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.link a:hover{
+    color: #687CEF;
+
+}
+
+
+@media(max-width: 991px){
+    .menu{
+        padding: 20px;
+    }
+    .menu label{
+        display: initial;
+    }
+    .menu .navbar{
+
+    }
 }
