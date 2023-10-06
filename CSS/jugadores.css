@@ -759,3 +759,472 @@ footer{
 }
 
 
+@media screen and (max-width: 800px){
+    
+    header{
+        display: flex;
+        font-weight: 5em;
+        height: 100px;
+        width: 100%;
+    }
+
+
+        .logo{
+            display: flex;
+            align-items: center;
+        }
+        
+        .logo-img{
+            height: 50px;
+            margin-left: 2px;
+        
+        }
+        
+        .logonombre{
+            margin-left: 20px;
+            font-size: 20px;
+        }
+
+        .barra{
+            font-weight: 600;
+            padding-right: 50px;
+            font-size: 18px;
+         }
+
+        /* final header  */
+    
+
+
+    .contenedor{
+        display: flex;
+        width: 730px;
+        margin-left: 40px;
+        height: 300px;
+    }
+
+    .cuadro{
+        width:350px;
+        height: 300px;
+        position: relative;
+    }
+    .text{
+        font-size: 21px;
+        margin-left: 2px;
+        margin-top: 0em;
+    }
+
+    .contenedor2{
+        display: flex;
+        width: 730px;
+        margin-left: 40px;
+        height: 300px;
+    }
+
+    .cuadro2{
+        width:350px;
+        height: 300px;
+        position: relative;
+    }
+    .text2{
+        font-size: 21px;
+        margin-left: 25px;
+        margin-top: 1em;
+    }
+
+    .contenedor3{
+        display: flex;
+        width: 730px;
+        margin-left: 40px;
+        height: 280px;
+    }
+
+    .cuadro3{
+        width:330px;
+        height: 280px;
+        position: relative;
+    }
+    .text3{
+        font-size: 21px;
+        margin-left: 3px;
+        margin-top: 2em;
+    }
+
+}
+
+@media screen and (max-width: 750px){
+    
+    header{
+        display: flex;
+        font-weight: 5em;
+        height: 100px;
+        width: 100%;
+        margin-top: -20px;
+    }
+
+
+        .logo{
+            display: flex;
+            align-items: center;
+        }
+        
+        .logo-img{
+            height: 48px;
+            margin-left: 2px;
+        
+        }
+        
+        .logonombre{
+            margin-left: 20px;
+            font-size: 15px;
+        }
+
+        .barra{
+            font-weight: 600;
+            padding-right: 10px;
+            font-size: 15px;
+         }
+
+        /* final header  */
+    
+
+
+    .contenedor{
+        display: flex;
+        width: 680px;
+        margin-left: 40px;
+        height: 300px;
+    }
+
+    .cuadro{
+        width:320px;
+        height: 300px;
+        position: relative;
+    }
+    .text{
+        font-size: 20px;
+        margin-left: 2px;
+        margin-top: 0em;
+    }
+
+    .contenedor2{
+        display: flex;
+        width: 680px;
+        margin-left: 40px;
+        height: 280px;
+    }
+
+    .cuadro2{
+        width:350px;
+        height: 280px;
+        position: relative;
+    }
+    .text2{
+        font-size: 21px;
+        margin-left: 25px;
+        margin-top: 0.2em;
+    }
+
+    .contenedor3{
+        display: flex;
+        width: 680px;
+        margin-left: 40px;
+        height: 260px;
+    }
+
+    .cuadro3{
+        width:330px;
+        height: 260px;
+        position: relative;
+    }
+    .text3{
+        font-size: 21px;
+        margin-left: 3px;
+        margin-top: 1em;
+    }
+
+}
+
+@media screen and (max-width: 730px){
+    
+    header{
+        display: flex;
+        font-weight: 5em;
+        height: 100px;
+        width: 100%;
+        margin-top: -20px;
+    }
+
+
+        .logo{
+            display: flex;
+            align-items: center;
+        }
+        
+        .logo-img{
+            height: 48px;
+            margin-left: 2px;
+        
+        }
+        
+        .logonombre{
+            margin-left: 20px;
+            font-size: 15px;
+        }
+
+        .barra{
+            font-weight: 600;
+            padding-right: 10px;
+            font-size: 15px;
+         }
+
+        /* final header  */
+    
+
+
+    .contenedor{
+        display: flex;
+        width: 650px;
+        margin-left: 30px;
+        height: 280px;
+    }
+
+    .cuadro{
+        width:310px;
+        height: 280px;
+        position: relative;
+    }
+    .text{
+        font-size: 18px;
+        margin-left: 2px;
+        margin-top: 0em;
+    }
+
+    .contenedor2{
+        display: flex;
+        width: 650px;
+        margin-left: 30px;
+        height: 280px;
+    }
+
+    .cuadro2{
+        width:320px;
+        height: 280px;
+        position: relative;
+    }
+    .text2{
+        font-size: 19px;
+        margin-left: 22px;
+        margin-top: 0.2em;
+    }
+
+    .contenedor3{
+        display: flex;
+        width: 650px;
+        margin-left: 40px;
+        height: 240px;
+    }
+
+    .cuadro3{
+        width:330px;
+        height: 240px;
+        position: relative;
+    }
+    .text3{
+        font-size: 18px;
+        margin-left: 3px;
+        margin-top: 1em;
+    }
+
+}
+
+@media screen and (max-width: 670px){
+    
+    header{
+        display: flex;
+        font-weight: 5em;
+        height: 100px;
+        width: 100%;
+        margin-top: -20px;
+    }
+
+
+        .logo{
+            display: flex;
+            align-items: center;
+        }
+        
+        .logo-img{
+            height: 48px;
+            margin-left: 2px;
+        
+        }
+        
+        .logonombre{
+            margin-left: 20px;
+            font-size: 15px;
+        }
+
+        .barra{
+            font-weight: 600;
+            padding-right: 10px;
+            font-size: 15px;
+         }
+
+        /* final header  */
+    
+
+
+    .contenedor{
+        display: flex;
+        width: 600px;
+        margin-left: 30px;
+        height: 280px;
+    }
+
+    .cuadro{
+        width:310px;
+        height: 280px;
+        position: relative;
+    }
+    .text{
+        font-size: 18px;
+        margin-left: 2px;
+        margin-top: 0em;
+    }
+
+    .contenedor2{
+        display: flex;
+        width: 600px;
+        margin-left: 30px;
+        height: 280px;
+    }
+
+    .cuadro2{
+        width:320px;
+        height: 280px;
+        position: relative;
+    }
+    .text2{
+        font-size: 19px;
+        margin-left: 22px;
+        margin-top: 0.2em;
+    }
+
+    .contenedor3{
+        display: flex;
+        width: 600px;
+        margin-left: 40px;
+        height: 240px;
+    }
+
+    .cuadro3{
+        width:330px;
+        height: 240px;
+        position: relative;
+    }
+    .text3{
+        font-size: 18px;
+        margin-left: 3px;
+        margin-top: 1em;
+    }
+
+}
+
+@media screen and (max-width: 625px){
+    
+    header{
+        display: flex;
+        font-weight: 5em;
+        height: 100px;
+        width: 100%;
+        margin-top: -20px;
+    }
+
+
+        .logo{
+            display: flex;
+            align-items: center;
+        }
+        
+        .logo-img{
+            height: 48px;
+            margin-left: 2px;
+        
+        }
+        
+        .logonombre{
+            margin-left: 20px;
+            font-size: 15px;
+        }
+
+        .barra{
+            font-weight: 600;
+            padding-right: 10px;
+            font-size: 15px;
+         }
+
+        /* final header  */
+    
+
+
+    .contenedor{
+        display: flex;
+        width: 500px;
+        margin-left: 45px;
+        height: 260px;
+    }
+
+    .cuadro{
+        width:270px;
+        height: 260px;
+        position: relative;
+    }
+    .text{
+        font-size: 15px;
+        margin-left: 1px;
+        margin-top: 0em;
+    }
+
+    .contenedor2{
+        display: flex;
+        width: 500px;
+        margin-left: 45px;
+        height: 260px;
+    }
+
+    .cuadro2{
+        width:270px;
+        height: 260px;
+        position: relative;
+    }
+    .text2{
+        font-size: 19px;
+        margin-left: 22px;
+        margin-top: 0.2em;
+    }
+
+    .contenedor3{
+        display: flex;
+        width: 500px;
+        margin-left: 45px;
+        height: 240px;
+    }
+
+    .cuadro3{
+        width:230px;
+        height: 240px;
+        position: relative;
+    }
+    .text3{
+        font-size: 18px;
+        margin-left: 3px;
+        margin-top: 1em;
+    }
+
+}
+
+
+
+
+
+
