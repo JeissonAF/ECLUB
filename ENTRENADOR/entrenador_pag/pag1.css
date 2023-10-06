@@ -130,12 +130,12 @@ p{
     color: #000000;
 }
 .information-1 a:hover{
-    color: black;
+    color: rgb(40, 54, 54);
 }
 .information-1:hover{
     cursor: pointer;
-  background-color: #000000;
-  color: #ff0000;
+  /* background-color: #000000;
+  color: #ff0000; */
 }
 
 .about{
