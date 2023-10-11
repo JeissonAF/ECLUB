@@ -17,16 +17,16 @@
         <input class="controls" type="text" name="apellido" id="apellidos" placeholder="Ingrese su apellido ">
         <select  class="controls" name="genero" id="genero" placeholder="Elija su género">
             <option value="" selected disabled>Elija su género</option>
-            <option value="femenino"> Femenino</option>
-            <option value="masculino"> Masculino</option> 
+            <option value="1"> Femenino</option>
+            <option value="2"> Masculino</option> 
         </select>
 
         <select class="controls" name="tipdoc" id="tipdoc" placeholder="Elija su tipo de documento">
             <option value="" selected disabled>Elija su tipo de documento</option>
-            <option value="ti">TI</option>
-            <option value="cc">CC</option>
-            <option value="ce">CE</option>
-            <option value="nuip">NUIP</option>>
+            <option value="1">TI</option>
+            <option value="2">CC</option>
+            <option value="3">CE</option>
+            <option value="4">NUIP</option>>
 
         </select>
 
@@ -34,9 +34,9 @@
 
         <select class="controls"  name="rol" id="rol" placeholder="Elija su rol">
             <option value="" selected disabled>Elija su rol</option>
-            <option value="entrenador"> Entrenador</option>
-            <option value="jugador"> Jugador</option>
-            <option value="acudiente"> Acudiente</option>
+            <option value="1"> Entrenador</option>
+            <option value="2"> Jugador</option>
+            <option value="3"> Acudiente</option>
         </select>
         <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su correo">
         <input class="controls" type="password" name="contrasena" id="contrasena" placeholder="Ingrese su contraseña ">

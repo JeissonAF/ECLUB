@@ -11,20 +11,12 @@ if (!empty($_POST['nombre']) && !empty($_POST['apellido']) && !empty($_POST['gen
     $email = $_POST['correo'];
     $pass = $_POST['contrasena'];
 
-    $sql = "INSERT INTO datos(Nombre,Apellido,id_genero,id_tipdoc,NumeroDocumento,id_rol,correo,contrasena) VALUES(:nom,:apell,:gen,:tipdoc,:numdoc,:rol,:corr,:pass)";
+    $sql = "INSERT INTO datos(Nombre,Apellido,id_genero,id_tipdoc,NumeroDocumento,id_rol,correo,contrasena) VALUES('$name','$apell','$gen','$tipdoc','$numdoc','$rol','$email','$pass')";
 
-    $stmt = $PDO->prepare($sql);
-    $stmt->bindParam(":nom",$name);
-    $stmt->bindParam(":apell",$apell);
-    $stmt->bindParam(":gen",$gen);
-    $stmt->bindParam(":tipdoc",$tipdoc);
-    $stmt->bindParam(":numdoc",$numdoc);
-    $stmt->bindParam(":rol",$rol);
-    $stmt->bindParam(":corr",$email);
-    $stmt->bindParam(":pass",$pass);
+    $resultado = $con->query($sql);
 
-    if ($stmt->execute()){
-        header("location: login.php");
+    if ($resultado){
+        header("location: ENTRENADOR/ENTRENADOR/login.html ");
 }
 }
 else{

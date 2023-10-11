@@ -1,3 +1,3 @@
 <?php
-$PDO = new PDO( 'mysql:host=localhost;dbname=proyecto;','root','' );
+$con = mysqli_connect('localhost','root','','proyecto');
 ?>
