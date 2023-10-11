@@ -18,12 +18,12 @@
   <meta name="description" content="Horarios | E-club">
 </head>
 <body class="bg-foto">
-  <div class="container my-5 p-5 shadow ">
+  <div class="container my-5 p-5 shadow-lg ">
     <nav class="navbar navbar-light d-flex">
       <h1>Horarios</h1>
     </nav>
 
-<table class="table table-bordered border-1 bg-white">
+<table class="table table-bordered border-1 bg-white shadow-lg">
     <thead>
       <tr class="bnaranja" >
         <th scope="col">id</th>
@@ -67,7 +67,7 @@
           <?php session_unset(); } ?>
           </div>
 <!-- Modal -->
-<div class="modal fade" id="subir" tabindex="-1" aria-hidden="true">
+<div class=" modal fade" id="subir" tabindex="-1" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -81,7 +81,7 @@
          <form action="../controller/hor_subir.php" method="POST">
           <div class="form-group row">
             <div class="">
-              <label  class="fs-5 py-1 ">Dia</label>
+              <label  class=" fs-5 py-1 ">Dia</label>
               <select class="form-select" name="dia" id="">
                 <option value="" selected disabled>Selecciona el dia</option>
                 <option value="1">Lunes</option>
@@ -125,7 +125,7 @@
       </div>
       <div class="modal-footer align-items-center justify-content-around">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-        <input type="submit" value="Guardar" class="btn btn-success my-5" name="subir">
+        <input type="submit" value="Guardar" class="btn btn-primary my-5" name="subir">
       </div>
       </form>
     </div>
