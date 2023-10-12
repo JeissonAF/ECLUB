@@ -3,34 +3,34 @@ include ('../model/conexion.php');
 session_start();
 if(isset($_POST['modificar'])){
    $id=$_POST['id']; 
-   $nombre = $_POST['nom'];
-   $apellido = $_POST['apel'];
-   $fecing = $_POST['fecing'];
-   $contrato = $_POST['cont'];
-   $tel = $_POST['tel'];
-   $salario = $_POST['sal'];
+   $dia = $_POST['dia'];
+   $hora_in = $_POST['horain'];
+   $hora_fin = $_POST['horafin'];
+   $event = $_POST['evento'];
+   $cat = $_POST['cat'];
+  
 
     //VALIDAR 
-    if($nombre== "" OR $apellido=="" OR  $fecing=="" OR $contrato=="" OR  $tel=="" OR  $salario==""){
+    if($dia== "" OR $hora_in=="" OR  $hora_fin=="" OR $event=="" OR  $cat==""){
         $_SESSION['mensaje'] = 'Debes llenar todos los campos';
         $_SESSION['tipo'] = 'danger';
-        header('location:../view/admin/empleados.php');
+        header('location:../view/horario.php');
     }else{
-        require("conexion.php");
+        require("../model/conexion.php");
         //MODIFICAR
-        $modificar = "UPDATE empleados SET nom = '$nombre', apel = '$apellido',fecing = '$fecing', cont = '$contrato', tel = '$tel', sal = '$salario'  WHERE id_emp = '$id'";
-        $resultado = mysqli_query($db,$modificar); 
+        $modificar = "UPDATE horario SET dia = '$dia', hora_in = '$hora_in',hora_fin = '$hora_fin', evento = '$event', categoria = '$cat'";
+        $resultado = mysqli_query($con,$modificar); 
         /* SUBIDO */
         if ($resultado){
         $_SESSION['mensaje'] = 'Datos del horario modificados exitosamente!';
         $_SESSION['tipo'] = 'success';
-        header('location:../view/admin/empleados.php');
+        header('location:../view/horario.php');
     }
     /* ERROR */
     else{
         $_SESSION['mensaje'] = 'ocurrio un error en el servidor';
             $_SESSION['tipo'] = 'danger';
-            header('location:../view/admin/empleados.php');
+            header('location:../view/horario.php');
     }
     }
    }

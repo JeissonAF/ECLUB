@@ -1,0 +1,100 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    padding: 10px;
+    margin-top: -25px;
+    margin-left: -6px;
+   
+
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo-img{
+    height: 75px;
+    margin-left: 2px;
+
+}
+
+.logonombre{
+    margin-left: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ 
+
+
+/* comienzo formulario  */
+
+
+   
+    
+
+
+.form{
+    width: 500px;
+    background-color: rgba(180, 180, 180, 0.5);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    font-family: 'calibri';
+    height: 500px;
+}
+
+
+.controls{
+    width: 100%;
+    font-size: 20px;
+    border-radius: 10px;
+
+}
+
+.titulo{
+    font-size: 25px;
+
+}
+
+.boton{
+    width: 100px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background:#f339399a;
+    color: white;
+    margin: 50px;
+    font-size: 15px;
+}
+
+.boton:hover{
+    background:#f33939; 
+    color: black;
+}
+
+.boton2{
+    width: 100px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background:#49f3399a;
+    color: white;
+    margin: 50px;
+    font-size: 15px;
+    margin-left: 120px;
+}
+
+.boton2:hover{
+    background:#49f339;
+    color: black;
+}

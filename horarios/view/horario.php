@@ -13,17 +13,36 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" >
-  <link rel="stylesheet" href="../../css/styles.css">
+  <link rel="stylesheet" href="horario_editar.css">
   <!-- META  -->
   <meta name="description" content="Horarios | E-club">
 </head>
-<body class="bg-foto">
+<body>
+
+<br>
+
+<header>
+        <a href="#" class="logo">
+            <h2 class="logonombre">E-CLUB</h2>
+            <img src="../../IMG/foto.png" alt="logo de la compañia" class="logo-img">
+
+        </a>
+    </header>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
   <div class="container my-5 p-5 shadow-lg ">
     <nav class="navbar navbar-light d-flex">
-      <h1>Horarios</h1>
+      <h1 class="display-2 text-center">Horarios</h1>
     </nav>
+<div class="table-responsive">
+<table class="table table-bordered border-1 bg-white shadow-lg ">
 
-<table class="table table-bordered border-1 bg-white shadow-lg">
     <thead>
       <tr class="bnaranja" >
         <th scope="col">id</th>
@@ -45,12 +64,13 @@
         <td><?php echo $horario['hora_fin']; ?></td>
         <td><?php echo $horario['evento']; ?></td>
         <td><?php echo $horario['categoria']; ?></td>
-        <td><a href="empleado_modificar.php?id=<?=$horario['id_hor']?>" type="button" class="btn btn-warning"><i class="bi bi-pencil-square"></i></a></td>
+        <td><a href="horario_editar.php?id=<?=$horario['id_hor']?>" type="button" class="btn btn-secondary"><i class="bi bi-pencil-square"></i></a></td>
         <td><a href="../controller/hor_eliminar.php?id=<?=$horario['id_hor']?>" type="button" class="btn btn-danger"><i class="bi bi-trash"></i></a></td>
       </tr>
   <?php }?>
     </tbody>
   </table>
+  </div>
 
 <!-- DELETE FROM `inventario` WHERE `inventario`.`id_emp` = 1 -->
 
@@ -126,8 +146,8 @@
 </div>
       </div>
       <div class="modal-footer align-items-center justify-content-around">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-        <input type="submit" value="Guardar" class="btn btn-primary my-5" name="subir">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+        <input type="submit" value="Guardar" class="btn btn-dark my-5" name="subir">
       </div>
       </form>
     </div>
