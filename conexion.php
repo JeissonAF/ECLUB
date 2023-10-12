@@ -1,3 +1,3 @@
 <?php
-$con = mysqli_connect('localhost','root','','proyecto');
+$con = mysqli_connect('localhost','root','','horarios');
 ?>

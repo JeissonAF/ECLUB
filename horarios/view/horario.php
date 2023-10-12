@@ -111,8 +111,10 @@
             <div class="">
               <label  class="fs-5 py-1 ">Categoria</label>
               <select class="form-select" name="cat" id="">
-                <option value="1">Sub 13</option>
-                <option value="2">Sub 14</option>
+                <option value="1">Sub 9</option>
+                <option value="2">Sub 12</option>
+                <option value="3">Sub 15</option>
+                <option value="4">Sub 18</option>
               </select>
             </div>
 
