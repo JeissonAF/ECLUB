@@ -213,7 +213,14 @@ h2{
     margin-bottom: 15px;
 }  */
 
-
+.container__cards{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 .hor{
     width: 100%;
@@ -229,16 +236,6 @@ h2{
     display: flex;
     max-width: 1100px;
 }
-
-.pack-center{
-    color: #FDFEFF;
- }
- .pack{
-  color: #FDFEFF;
-  font-weight: 600;
-  margin-bottom: 10px;
- }
-    
 
 .price{
     width: 100%;
@@ -386,7 +383,7 @@ color: white;
 
 /* antes de yo */
 
-/* .price{
+ /* .price{
     padding: 0 0 120px 0;
     text-align: center;
 }
@@ -424,7 +421,13 @@ color: white;
 .price-1 li{
     color: #FDFEFF;
     margin-bottom: 15px;
-}
+} */
+
+
+
+
+
+
 .footer{
     background-color: #151521;
     padding: 50px 0;
@@ -447,7 +450,7 @@ color: white;
 .link a:hover{
     color: #687CEF;
 
-} */
+} 
 
 
 @media(max-width: 991px){
