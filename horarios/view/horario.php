@@ -37,7 +37,7 @@
       </tr>
     </thead>
     <tbody>
-    <?php foreach($resultado as $horario){ ?>
+    <?php foreach($solucion as $horario){ ?>
       <tr class="text-center">
         <th><?php echo $horario['id_hor']; ?></th>
         <td><?php echo $horario['dia']; ?></td>

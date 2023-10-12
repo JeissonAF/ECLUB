@@ -2,7 +2,6 @@
 include('../model/conexion.php');
 session_start();
 if(isset($_POST['subir'])){
-    $id=$_POST['id']; 
     $dia = $_POST['dia'];
     $horin = $_POST['horini'];
     $horfin = $_POST['horfin'];
