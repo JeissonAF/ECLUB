@@ -10,7 +10,7 @@ if(isset($_POST['subir'])){
 
     if(!empty($_POST['dia']) && !empty($_POST['horini']) && !empty($_POST['horfin']) && !empty($_POST['event']) && !empty($_POST['cat'])){
         include_once('../model/horario_subir.php');
-         if($resultado){
+         if($solucion){
             $_SESSION['mensaje'] = 'Horario agregado exitosamente!';
             $_SESSION['tipo'] = 'success';
             header('location:../view/horario.php');
