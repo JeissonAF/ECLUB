@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 body{
     background-color: #1f242d;
@@ -25,8 +29,9 @@ body{
     color: aliceblue;
     font-weight: 600;
     cursor: default;
-    opacity: 0;
-    animation: slideRigth 1s ease forwards;
+    text-decoration: none;
+    /* opacity: 0;
+    animation: slideRigth 1s ease forwards; */
 }
 .navbar a{
     display: inline-block;
@@ -36,9 +41,9 @@ text-decoration: none;
 font-weight: 500;
 margin-left: 35px;
 transition: .3s;
-opacity: 0;
-animation: slideTop 0.5s ease forwards;
-animation-delay: calc(.2s * var(--i));
+/* opacity: 0;
+animation: steps(slideTop)  0.5s ease forwards;
+animation-delay: calc(.2s * var(--i)); */
 }
 .navbar a:hover,
 .navbar a.active{
@@ -56,40 +61,40 @@ animation-delay: calc(.2s * var(--i));
 .home-content{
     max-width: 600px;
 }
-.home-content h3{
+.home-content .lol{
     font-size: 32px;
     font-weight: 700;
-    animation: slideBottom 1s ease forwards;
-    animation-delay: .7s;
+    /* animation: steps(slideBottom)  1s ease forwards;
+    animation-delay: .7s; */
 }
-.home-content h3:nth-of-type(2){
+.home-content .lol:nth-of-type(2){
     margin-bottom: 30px;
-    animation: slideTop 1s ease forwards;
-    animation-delay: .7s;
+    /* animation: steps(slideTop)  1s ease forwards;
+    animation-delay: .7s; */
 }
-.home-content h3 span{
+.home-content .lol span{
     color: aqua;
 }
-.home-content h1{
+.home-content .perr{
     font-size: 56px;
     font-weight: 700;
     margin: -3px 0;
     opacity: 0;
-    animation: slideRight 1s ease forwards;
-    animation-delay: 1s;
+    /* animation: steps( slideRight 1s ease forwards);
+    animation-delay: 1s; */
 }
-.home-content p{
+.home-content .bielsa{
     font-size: 16px;
     opacity: 0;
-    animation: slideLeft  1s ease forwards;
-    animation-delay: 1s;
+    /* animation: steps( slideLeft  1s ease forwards);
+    animation-delay: 1s; */
 
 }
 .home-img img{
     max-width: 450px;
     margin-right: -20px;
-    animation: zoomIn 1s ease forwards, floatImage 4s ease-in-out infinite;
-    animation-delay: 2s, 3s;
+    /* animation: steps( zoomIn 1s ease forwards, floatImage 4s ease-in-out infinite);
+    animation-delay: 2s, 3s; */
 }
 .social-media a{
     display: inline-flex;
@@ -105,9 +110,9 @@ animation-delay: calc(.2s * var(--i));
     text-decoration: none;
     margin: 30px 15px 30px 0;
     transition: .5s ease;
-    opacity: 0;
-    animation: slideLeft 1s ease forwards;
-    animation-delay: calc(.2s * var(--i));
+    /* opacity: 0;
+    animation: steps( slideLeft 1s ease forwards);
+    animation-delay: calc(.2s * var(--i)); */
 }
 .social-media a:hover{
     background: aqua;
@@ -125,12 +130,14 @@ animation-delay: calc(.2s * var(--i));
     text-decoration: none;
     font-weight: 600;
     opacity: 0;
-    animation: slideTop 1s ease forwards;
-    animation-delay: 2s;
+    /* animation: steps(slideTop 1s ease forwards);
+    animation-delay: 2s; */
 }
 
 
-@keyframes slideRight{
+/* javahpta */
+
+/* @keyframes slideRight{
     0%{
         transform: translateX(-100px);
         opacity: 0;
@@ -189,9 +196,9 @@ animation-delay: calc(.2s * var(--i));
         transform: translateY(0);
     }
     50%{
-        transform: translateY(-24px);
+        transform: translateY(0);
     }
     100%{
         transform: translateY(0);
     }
-}
+} */
