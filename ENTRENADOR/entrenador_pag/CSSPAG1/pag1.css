@@ -10,7 +10,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: #1E202D;
+    background-color:#3d4957;
 }
 img{
     max-width: 100%;
@@ -20,7 +20,7 @@ img{
     margin: 0 auto;
 }
 .header{
-    background-color:#12121C;
+    background-color: #313542;
     display: flex;
     align-items: center;
     min-height: 80vh;
@@ -45,16 +45,18 @@ img{
 .menu .navbar ul li{
     position: relative;
     float: left;
+    /* background-color: #8a8a8a; */
 }
 .menu .navbar ul li a{
     font-size: 18px;
     padding: 20px;
-    color: #FFFF;
+    color: #ffffff;
     display: block;
     font-weight: 600;
 }
-.menu .navbar ul li a:hover{
-    color: aquamarine;
+
+.tex :hover{
+    color: #2fb4cc;
 }
 #menu{
      display: none;
@@ -75,16 +77,16 @@ img{
 .header-txt h1{
     font-size: 55px;
     line-height: 1;
-    color: #FFF;
+    color: #ffffff;
     margin-bottom: 25px;
 }
 span{
-    color: rgb(202, 191, 191);
+    color: rgb(255, 238, 0);
 
 }
 p{
     font-size: 17px;
-    color: bisque;
+    color: rgb(255, 255, 255);
     margin-bottom: 35px;
 }
 .butons{
@@ -123,7 +125,7 @@ p{
 
 .information-1 p{
     margin-bottom: 5px;
-    color: burlywood;
+    color: gray;
 }
 
 .information-1 a{
@@ -163,7 +165,7 @@ h2{
     margin: 0;
 }
 .intro{
-    color: #687CEF;
+    color: #ffffff;
     font-size: 15px;
 }
 
@@ -178,7 +180,7 @@ h2{
     gap: 30px;
 }
 .services-1{
-    background-color: #ffffff00;
+    background-color: #212129ef;;
     box-shadow: 0 0 20px rgba(0,0,0,0.4); 
     padding: 35px;
     display: flex;
@@ -203,15 +205,12 @@ h2{
     transition: 2s;
  }
  
- /* .services-1 img{
-    width: 30px;
-    margin-bottom: 10px;
-}
+ 
 
 .services-1 h3{
     color: #FDFEFF;
     margin-bottom: 15px;
-}  */
+} 
 
 .container__cards{
     max-width: 1200px;
@@ -465,11 +464,11 @@ color: white;
         top: 100%;
         left: 0;
         right: 0;
-        background-color: #687CEF;
+        background-color: #000000;
         display: none;
     }
     .menu .navbar ul li a:hover{
-        color: #151521;
+        color: #e0e0e0;
     }
     .menu .navbar ul li{
         width: 100%;
