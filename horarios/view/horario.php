@@ -103,13 +103,13 @@
             <div class="">
               <label  class=" fs-5 py-1 ">Dia</label>
               <select class="form-select" name="dia" id="">
-                <option value="" selected disabled>Selecciona el dia</option>
+                <option value="" selected disabled>Selecciona el día</option>
                 <option value="1">Lunes</option>
                 <option value="2">Martes</option>
-                <option value="3">Miercoles</option>
+                <option value="3">Miércoles</option>
                 <option value="4">Jueves</option>
                 <option value="5">Viernes</option>
-                <option value="6">Sabado</option>
+                <option value="6">Sábado</option>
                 <option value="7">Domingo</option>
               </select>
             </div>
@@ -129,7 +129,7 @@
               </select>
             </div>
             <div class="">
-              <label  class="fs-5 py-1 ">Categoria</label>
+              <label  class="fs-5 py-1 ">Categoría</label>
               <select class="form-select" name="cat" id="">
                 <option value="1">Sub 9</option>
                 <option value="2">Sub 12</option>
