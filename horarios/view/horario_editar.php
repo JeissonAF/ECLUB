@@ -95,7 +95,7 @@ if ($horario= mysqli_fetch_array($result)){
                 echo ('selected');} ?>>Sub 18</option>
               </select>
 
-        <a href="../view/horario.php" class="boton" >Cancelar</a> 
+        <a href="../view/horario.php" class="boton"> Cancelar</a> 
        <input class="boton2" type="submit" value="Guardar" name="modificar">
 
        </section>

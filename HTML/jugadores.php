@@ -15,9 +15,9 @@
 
         </a>
         <nav class="barra">
-            <a href="../HTML/horarios.html" class="nav-link">Horarios</a>
+           <a href="../horarios../view/horariosjugadores.php" class="nav-link">Horarios</a>
             <a href="../HTML/galeria.html" class="nav-link">Galeria</a>
-            <a href="../ENTRENADOR (1)/ENTRENADOR/entre.html" class="nav-link">Entrenamientos</a>
+            <a href="../ENTRENADOR (1)/ENTRENADOR/entre.html" class="../ENTRENADOR../entrenador_pag/simeone.html">Entrenadores</a>
             <a href="" class="nav-link">Ubicación de canchas </a>
         </nav>
     </header>
