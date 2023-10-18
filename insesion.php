@@ -4,27 +4,26 @@
     //
     session_start();
 if(isset($_POST['iniciar'])){
-        if(!empty($_POST['mail']) && !empty($_POST['pass'])){
-            $mail = $_POST['mail'];
+        if(!empty($_POST['correo']) && !empty($_POST['pass'])){
+            $mail = $_POST['correo'];
             $pass = $_POST['pass'];
-            $query = $db->query("SELECT * FROM usuarios WHERE email_user='$mail'");
+            $query = $con->query("SELECT * FROM datos WHERE correo='$mail'");
             $resultado = $query;
             if ($resultado->num_rows == 1) {
             $usuario = mysqli_fetch_assoc($resultado);
-            $_SESSION['id'] = $usuario['id_user'];
             }
-            if (password_verify($pass, $usuario['pass_user'])) {
+            if ($usuario['contrasena']==$pass) {
             /* */
 
 
-                switch ($usuario['rol_user']){
+                switch ($usuario['id_rol']){
                     case '1':
-                        //Jugador
-                        header("location: ../view/admin/inventario.php");
+                        //Entrenador
+                        header("location: ENTRENADOR/entrenador_pag/pag1.html");
                         break;
                     case '2':
-                        //Entrenador 
-                        header("location: ../view/empleado/ventas.php");
+                        //Jugador
+                        header("location: HTML/jugadores.php ");
                         break;
                     case '3':
                         //Acudientes
@@ -33,13 +32,14 @@ if(isset($_POST['iniciar'])){
             }
         }
           else {
-            $_SESSION['maile'] = 'Correo electrónico o contraseña incorrectos.';
-            header('location: ../view/login.php');
+            echo "<script> alert('Correo o contraseña incorrectos') </script>";
+            header( "Refresh:0; url=ENTRENADOR/ENTRENADOR/login.html", true, 303);
         }
 }
         else {
-        $_SESSION['debes'] = 'Debes completar todos los campos.';
-        header('location: ../view/login.php');
+            echo "<script> alert('Debes completar todos los campos') </script>";
+        header( "Refresh:0; url=ENTRENADOR/ENTRENADOR/login.html", true, 303);
+
         }
     }
 
