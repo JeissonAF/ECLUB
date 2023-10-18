@@ -424,7 +424,7 @@ color: white;
 } */
 
 
-
+/* footer */
 
 
 
@@ -520,10 +520,10 @@ color: white;
         margin-top: 30px;
         grid-template-columns: repeat(1 , 1fr);
     }
-    .price{
+    .hor{
         padding: 30px;
     }
-    .price-content{
+    .brr{
         flex-direction: column;
     }
     .price-1{
