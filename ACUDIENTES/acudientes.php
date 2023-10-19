@@ -92,7 +92,7 @@
                    Dias de entrenamiento 
                  </p>
             </div>
-<a href="#"><img src="fotos/sub 9.jpeg" alt=""></a>
+<a href="../horarios\view\horariosjugadores.php"><img src="fotos/sub 9.jpeg" alt=""></a>
         </div>
        
 
