@@ -64,7 +64,7 @@
 
 </body>
 
-<footer>
+<!-- <footer>
 <div class="footer background-color-black">
         <div class="padding-global">
           <div class="container-large">
@@ -132,5 +132,5 @@
       </div>
     </main>
   </div>
-</footer>
+</footer> -->
 </html>
