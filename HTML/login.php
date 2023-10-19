@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="loginnew.css" rel="stylesheet">
+    <link href="../CSS/loginnew.css" rel="stylesheet">
 </head>
 
   <body>
@@ -13,22 +13,22 @@
   <header>
    <a class="logo">
        <h2 class="logonombre">E-CLUB</h2>
-       <img src="../../IMG/foto.png" alt="logo de la compañia">
+       <img src="../IMG/foto.png" alt="logo de la compañia">
      
    </a>
    <nav class="barra">
-       <a href="../ENTRENADOR/entre.html" class="nav-link">Inicio</a>
+       <a href="../HTML/index.html" class="nav-link">Inicio</a>
       
        
 
        
       
-       <a href="login.html" class="nav-link">Ayuda</a>
+      
    </nav>
 </header>
 
     <div class="login-box">
-        <h2>Login</h2>
+        <h2>Inicia sesión</h2>
         <form method="POST" action="../../insesion.php" >
           <div class="user-box">
             <input type="text" name="correo" required="">
@@ -39,13 +39,13 @@
             <input type="password" name="pass" required="">
             <label>Contraseña</label>
           </div>
-          <input type="submit" name="iniciar">
+          <a class="botonlog">
+          <input type="submit" name="Iniciar Sesión" value="Iniciar Sesión" class="botonlog botonlogbt">
             <span></span>
             <span></span>
             <span></span>
             <span></span>
-            Iniciar Sesión
-          </a>
+</a>
         </form>
       </div>
 </body>
