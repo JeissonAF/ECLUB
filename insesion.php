@@ -27,7 +27,7 @@ if(isset($_POST['iniciar'])){
                         break;
                     case '3':
                         //Acudientes
-                        header("location: ../index.php");
+                        header("location: ACUDIENTES\acudientes.php");
                         break;
             }
         }
