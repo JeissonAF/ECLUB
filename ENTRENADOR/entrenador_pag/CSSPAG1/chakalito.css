@@ -6,8 +6,8 @@ header{
   background-color: black;
   color: white;
   align-items: center;
-  padding: 13px;
-  margin-top: -47%;
+  padding: 10px;
+  margin-top: -1%;
   margin-left: -8px;
   position: absolute;
 
@@ -26,16 +26,18 @@ header{
 
 .logonombre{
   margin-left: 30px;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
-a{
+/* a{
   text-decoration: none;
   color: white;
-}
+} */
 
 .barra{
  font-weight: 600;
- padding-right: 70px;
+ padding-right: 50px;
  font-size: 25px;
  align-items: center;
 
@@ -52,6 +54,8 @@ a{
 .nav-link{
   padding-right: 30px;
 }
+/* cierre de cabezera */
+/* cierre de cabezera */
 
 
 
@@ -99,7 +103,7 @@ h3 {
 }
 
 a {
-  color: #1e1e1e;
+  color: #ffffff;
   text-align: left;
   padding: 12px 24px;
   font-family: IBM Plex Sans, sans-serif;
