@@ -2,7 +2,7 @@
 <html data-wf-domain="angels-e-club.webflow.io" data-wf-page="651210b25c0f9212c20bf264" data-wf-site="651210b15c0f9212c20bf21d" lang="en">
 <head>
   <meta charset="utf-8"/>
-  <title>ANGEL&#x27;s E-CLUB</title>
+  <title>E-CLUB</title>
   <meta content="width=device-width, initial-scale=1" name="viewport"/>
   <meta content="Webflow" name="generator"/>
   <link href="../assets/651210b15c0f9212c20bf21d/css/angels-e-club.webflow.2830f4df9.css" rel="stylesheet" type="text/css"/>
@@ -200,7 +200,7 @@ margin: 0rem !important;
           <a href="#Features" class="navbar_link w-nav-link">Horarios</a>
           <a href="#Specifications" class="navbar_link w-nav-link">Ejercicios</a>
           <a href="#Overview" class="navbar_link w-nav-link">Contactanos</a>
-        </nav><a href="#" class="button is-nav w-button">Inica Sesion</a>
+        </nav><a href="../../../HTML/login.php" class="button is-nav w-button">Inicia Sesión</a>
       </div>
       <div class="navbar_menu-button w-nav-button">
         <div class="menu-icon">
@@ -228,7 +228,7 @@ margin: 0rem !important;
               <p class="text-color-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/> Suspendisse varius enim in eros elementum tristique. </p>
               <div class="margin-top margin-medium">
                 <div class="w-layout-grid grid-2col is-hero">
-                  <a id="w-node-_93af9647-aa1e-9499-d986-d6bb8d836070-c20bf264" href="#" class="button is-secondary w-button">Registrate</a>
+                  <a id="w-node-_93af9647-aa1e-9499-d986-d6bb8d836070-c20bf264" href="../../HTML/registro.php" class="button is-secondary w-button">Registrate</a>
                 </div>
               </div>
             </div>

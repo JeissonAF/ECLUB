@@ -87,7 +87,7 @@
 
         <div class="swiper-slide">
             <div class="swiper-txt">
-                 <h1>Horario</h1>
+                 <h1>Horarios</h1>
                  <p>
                    Días de entrenamiento 
                  </p>

@@ -60,7 +60,7 @@
         </div>
 
         <nav>
-            <a href="../HTML/index.html" class="nav-link">Inicio</a>
+            <a href="../INDEX/carpeta/HTMLI/index.php" class="nav-link">Inicio</a>
         </nav>
     </header>
 </body>
