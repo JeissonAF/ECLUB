@@ -24,7 +24,7 @@
 
         </a>
         <nav class="barra">
-            <a href="../HTML/registro.php" class="nav-link"><strong>CHAT</strong></a>
+            <a href="https://chat-pc.glide.page/" class="nav-link"><strong>CHAT</strong></a>
            
         </nav>
     </header>
