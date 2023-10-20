@@ -396,7 +396,7 @@ margin: 0rem !important;
              <div class="padding-footer"><div class="display-horizontal space-between"> 
                  <div class="footer-left"> 
                      <img src="../assets-global.website-files.com/651210b15c0f9212c20bf21d/65121d1670ad7f9398d36ed0_image-removebg-preview%20(1).png" loading="lazy" sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 854px) 90vw, (max-width: 991px) 769px, 41vw" srcset="https://assets-global.website-files.com/651210b15c0f9212c20bf21d/65121d1670ad7f9398d36ed0_image-removebg-preview%20(1)-p-500.png 500w, https://assets-global.website-files.com/651210b15c0f9212c20bf21d/65121d1670ad7f9398d36ed0_image-removebg-preview%20(1).png 769w" alt="" class="padding-bottom padding-medium"/> 
-                     <div class="max-width-small">SOMOS UN PAIS TAN POBRE QUE GRITAMOS MAS FUERTE UN GOL QUE UNA INJUSTICIA</div> 
+                     <div class="max-width-small"></div> 
                  </div><div class="footer-right"> 
                      <div class="footer-link_component"> 
                          <div class="footer-links"> 
@@ -405,7 +405,7 @@ margin: 0rem !important;
                              <a href="#" class="footer_link">Link</a> 
                              <a href="#" class="footer_link">Link</a> 
                              <a href="#" class="footer_link">Link</a> 
-                         </div><div class="footer-links"><div>Chupalo</div> 
+                         </div><div class="footer-links"><div></div> 
                          <a href="#" class="footer_link">Link</a> 
                          <a href="#" class="footer_link">Link</a> 
                          <a href="#" class="footer_link">Link</a> 
