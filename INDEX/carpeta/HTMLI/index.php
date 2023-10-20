@@ -2,7 +2,7 @@
 <html data-wf-domain="angels-e-club.webflow.io" data-wf-page="651210b25c0f9212c20bf264" data-wf-site="651210b15c0f9212c20bf21d" lang="en">
 <head>
   <meta charset="utf-8"/>
-  <title>ANGEL&#x27;s E-CLUB</title>
+  <title>E-CLUB</title>
   <meta content="width=device-width, initial-scale=1" name="viewport"/>
   <meta content="Webflow" name="generator"/>
   <link href="../assets/651210b15c0f9212c20bf21d/css/angels-e-club.webflow.2830f4df9.css" rel="stylesheet" type="text/css"/>
@@ -200,7 +200,7 @@ margin: 0rem !important;
           <a href="#Features" class="navbar_link w-nav-link">Horarios</a>
           <a href="#Specifications" class="navbar_link w-nav-link">Ejercicios</a>
           <a href="#Overview" class="navbar_link w-nav-link">Contactanos</a>
-        </nav><a href="#" class="button is-nav w-button">Inica Sesion</a>
+        </nav><a href="../../../HTML/login.php" class="button is-nav w-button">Inicia Sesión</a>
       </div>
       <div class="navbar_menu-button w-nav-button">
         <div class="menu-icon">
@@ -228,7 +228,7 @@ margin: 0rem !important;
               <p class="text-color-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/> Suspendisse varius enim in eros elementum tristique. </p>
               <div class="margin-top margin-medium">
                 <div class="w-layout-grid grid-2col is-hero">
-                  <a id="w-node-_93af9647-aa1e-9499-d986-d6bb8d836070-c20bf264" href="#" class="button is-secondary w-button">Registrate</a>
+                  <a id="w-node-_93af9647-aa1e-9499-d986-d6bb8d836070-c20bf264" href="../../../HTML/registro.php" class="button is-secondary w-button">Registrate</a>
                 </div>
               </div>
             </div>
@@ -285,11 +285,11 @@ margin: 0rem !important;
                   <div class="text-color-grey">CATEGORIAS
 
                   </div>
-                  <div class="text-color-orange">6, 9, 13, 15, 18</div>
+                  <div class="text-color-orange">9, 12, 15, 18</div>
                 </div>
                 <div id="w-node-_38eb03ae-6720-b809-9ebc-124842dc93cf-c20bf264" class="feature-text">
                   <div class="text-color-grey">REDES SOCIALES</div>
-                  <div class="text-color-orange">FACEBOOK :)</div>
+                  <div class="text-color-orange"><a href="https://www.facebook.com/Escueladefutboljuventudbogota/">Facebook</a></div>
                 </div>
                 <div id="w-node-_3a2cb11b-914d-0b06-a1d9-2382bdbec126-c20bf264" class="feature-text">
                   <div class="text-color-orange">Lorem</div>
@@ -298,11 +298,11 @@ margin: 0rem !important;
               <div class="div-block">
                 <div id="w-node-a5c3a78a-1e33-3aa5-a477-8e28ffea0a58-c20bf264" class="feature-text">
                   <div class="text-color-grey">MAPA DE LA CANCHA</div>
-                  <div class="text-color-orange">Dale click</div>
+                  <div class="text-color-orange"><a href="https://www.google.com/maps/@4.5547581,-74.0950576,3a,75y,233.37h,78.76t/data=!3m7!1e1!3m5!1sckD4X6maiR-0XoayqjEHNw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DckD4X6maiR-0XoayqjEHNw%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D181.42116%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192?entry=ttu">Dale Click</a></div>
                 </div>
                 <div id="w-node-a5c3a78a-1e33-3aa5-a477-8e28ffea0a5d-c20bf264" class="feature-text">
-                  <div class="text-color-grey">MALUMA</div>
-                  <div class="text-color-orange">BRYAN MYERS</div>
+                  <div class="text-color-grey">Galeria</div>
+                  <div class="text-color-orange">Dale Click</div>
                 </div>
               </div>
             </div>
@@ -316,7 +316,7 @@ margin: 0rem !important;
                   </div>
                   <div class="text-weight-bold text-size-medium text-color-white">TRABAJO<br/>EN EQUIPO</div>
                 </div>
-                <p class="padding-top padding-small text-color-grey">Vero ut et debitis eos aut distinctio a. Nesciunt quam asperiores qui. Beatae voluptatem est nesciunt eum qui inventore.</p>
+                <p class="padding-top padding-small text-color-grey">El trabajo en equipo es la sinfonía que transforma esfuerzos individuales en logros colectivos.</p>
               </div>
               <div id="w-node-c74b9c3f-f67a-540f-2529-1059028184cf-c20bf264" class="feature-card">
                   <div id="w-node-c74b9c3f-f67a-540f-2529-1059028184d0-c20bf264" class="display-horizontal">
@@ -325,7 +325,7 @@ margin: 0rem !important;
                     </div>
                     <div class="text-weight-bold text-size-medium text-color-white">COMPETITIVIDAD</div>
                   </div>
-                  <p class="padding-top padding-small text-color-grey">Vero ut et debitis eos aut distinctio a. Nesciunt quam asperiores qui. Beatae voluptatem est nesciunt eum qui inventore.</p>
+                  <p class="padding-top padding-small text-color-grey">La competitividad es el desafío constante de superar nuestros propios límites en la búsqueda de la excelencia.</p>
                 </div>
                 <div id="w-node-_962aa63f-8280-9450-557c-7232d851c16f-c20bf264" class="feature-card">
                   <div id="w-node-_962aa63f-8280-9450-557c-7232d851c170-c20bf264" class="display-horizontal">
@@ -333,7 +333,7 @@ margin: 0rem !important;
                     </div>
                     <div class="text-weight-bold text-size-medium text-color-white">TRABAJO DURO</div>
                   </div>
-                  <p class="padding-top padding-small text-color-grey">Vero ut et debitis eos aut distinctio a. Nesciunt quam asperiores qui. Beatae voluptatem est nesciunt eum qui inventore.</p>
+                  <p class="padding-top padding-small text-color-grey">El trabajo duro es la llave que desbloquea las puertas hacia el éxito, donde la perseverancia y la dedicación son las herramientas que abren el camino.</p>
                 </div>
                 <div id="w-node-_6bc4d269-62d0-7c1f-1420-1732916df3a5-c20bf264" class="feature-card">
                   <div id="w-node-_6bc4d269-62d0-7c1f-1420-1732916df3a6-c20bf264" class="display-horizontal">
@@ -342,7 +342,7 @@ margin: 0rem !important;
                     </div>
                     <div class="text-weight-bold text-size-medium text-color-white">COMPROMISO</div>
                   </div>
-                  <p class="padding-top padding-small text-color-grey">Vero ut et debitis eos aut distinctio a. Nesciunt quam asperiores qui. Beatae voluptatem est nesciunt eum qui inventore.</p>
+                  <p class="padding-top padding-small text-color-grey">El compromiso es el motor que impulsa el progreso, convirtiendo promesas en acciones y metas en realidades</p>
                 </div>
               </div>
             </div>
@@ -374,7 +374,7 @@ margin: 0rem !important;
           <div class="padding-section-large">
             <div class="max-width-medium">
               <h2>¿QUIENES SOMOS?</h2>
-              <p class="padding-top padding-small max-width-custom2">Quod ingggggfdgdfghhdfghdhdfhdhdhfhfhhgfhfhthfhd.<br/>.hdsdhdhdsfhfdh<br/>fdhdshsdh<br/>thshfhfghfhhthfhfhfghfdhhsthtrhfthfshfhfthrtfhthsthh<br/>ghsthfshfhrthdgtthfhhfh<br/>shfh</p>
+              <p class="padding-top padding-small max-width-custom2"> Somos una comunidad que apoya el talento de los niños y jóvenes, <br/>creyendo en sus capacidades y ayudándolos a mejorar sus habilidades y sobre todo sus valores como personas.<br/>
               <a href="#" class="button is-terciary margin-top margin-medium w-button">Mas Informacion</a>
             </div>
           </div>
@@ -396,16 +396,16 @@ margin: 0rem !important;
              <div class="padding-footer"><div class="display-horizontal space-between"> 
                  <div class="footer-left"> 
                      <img src="../assets-global.website-files.com/651210b15c0f9212c20bf21d/65121d1670ad7f9398d36ed0_image-removebg-preview%20(1).png" loading="lazy" sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 854px) 90vw, (max-width: 991px) 769px, 41vw" srcset="https://assets-global.website-files.com/651210b15c0f9212c20bf21d/65121d1670ad7f9398d36ed0_image-removebg-preview%20(1)-p-500.png 500w, https://assets-global.website-files.com/651210b15c0f9212c20bf21d/65121d1670ad7f9398d36ed0_image-removebg-preview%20(1).png 769w" alt="" class="padding-bottom padding-medium"/> 
-                     <div class="max-width-small">SOMOS UN PAIS TAN POBRE QUE GRITAMOS MAS FUERTE UN GOL QUE UNA INJUSTICIA</div> 
+                     <div class="max-width-small"></div> 
                  </div><div class="footer-right"> 
                      <div class="footer-link_component"> 
                          <div class="footer-links"> 
-                             <div>Nose</div> 
+                             <div></div> 
                              <a href="#" class="footer_link">Link</a> 
                              <a href="#" class="footer_link">Link</a> 
                              <a href="#" class="footer_link">Link</a> 
                              <a href="#" class="footer_link">Link</a> 
-                         </div><div class="footer-links"><div>Chupalo</div> 
+                         </div><div class="footer-links"><div></div> 
                          <a href="#" class="footer_link">Link</a> 
                          <a href="#" class="footer_link">Link</a> 
                          <a href="#" class="footer_link">Link</a> 
@@ -413,16 +413,13 @@ margin: 0rem !important;
                      <a href="#" class="footer_link">Link</a> 
                      <a href="#" class="footer_link">Link</a> 
                  </div></div><div class="padding-left padding-huge tablet-none"> 
-                     <div class="padding-bottom padding-medium">¿QUIERE CAMBIAR ALGO? DIGALO</div> 
+                     <div class="padding-bottom padding-medium">¿TIENES ALGUNA SUGERENCIA?</div> 
                      <div class="w-form"> 
                          <form id="email-form" name="email-form" data-name="Email Form" method="get" class="footer-form" data-wf-page-id="651210b25c0f9212c20bf264" data-wf-element-id="175374ce-736a-d26f-4c87-c838d055bd97"> 
-                             <input type="email" class="text-field w-input" maxlength="256" name="email-2" data-name="Email 2" placeholder="ESCRIBALO AQUI SIN MIEDO" id="email-2" required=""/> 
+                             <input type="email" class="text-field w-input" maxlength="256" name="email-2" data-name="Email 2" placeholder="ESCRIBE AQUI" id="email-2" required=""/> 
                              <input type="submit" value="ENVIAR" data-wait="Please wait..." class="button is-footer w-button"/> 
                          </form> 
-                         <div class="w-form-done"> 
-                             <div>Thank you! Your submission has been received!</div> 
-                         </div> 
-                         <div class="w-form-fail"><div>Oops! Something went wrong while submitting the form.</div> 
+                         <
                      </div> 
                  </div> 
              </div> 
@@ -432,7 +429,7 @@ margin: 0rem !important;
   
                      </div> 
                      <div class="display-horizontal space-between mobile-none"> 
-                         <div class="text-color-grey">© 2023 LO RESERVO TODO.</div> 
+                         <div class="text-color-grey">COPYRIRGHT©2023 E-CLUB</div> 
                          <div class="logo-component"> 
                              <div class="w-embed"> 
                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/> 
