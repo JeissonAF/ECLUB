@@ -1,5 +1,5 @@
 var typed = new Typed(".multiple-text", {
-    strings: ["entrenamiento deportivo", "lic. ed fisica", "magister deportivo"],
+    strings: ["Entrenamiento deportivo", "Lic. ed fisica", "Magister deportivo"],
     typeSpeed:100,
     backSpeed:100,
     backDelay: 1000,

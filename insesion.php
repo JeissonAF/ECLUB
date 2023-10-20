@@ -27,18 +27,18 @@ if(isset($_POST['iniciar'])){
                         break;
                     case '3':
                         //Acudientes
-                        header("location: ../index.php");
+                        header("location: ACUDIENTES\acudientes.php");
                         break;
             }
         }
           else {
             echo "<script> alert('Correo o contraseña incorrectos') </script>";
-            header( "Refresh:0; url=ENTRENADOR/ENTRENADOR/login.html", true, 303);
+            header( "Refresh:0; url= HTML\login.php", true, 303);
         }
 }
         else {
             echo "<script> alert('Debes completar todos los campos') </script>";
-        header( "Refresh:0; url=ENTRENADOR/ENTRENADOR/login.html", true, 303);
+        header( "Refresh:0; url= HTML\login.php", true, 303);
 
         }
     }

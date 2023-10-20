@@ -16,7 +16,7 @@ if (!empty($_POST['nombre']) && !empty($_POST['apellido']) && !empty($_POST['gen
     $resultado = $con->query($sql);
 
     if ($resultado){
-        header("location: ENTRENADOR/ENTRENADOR/login.html ");
+        header("location: HTML\login.php ");
 }
 }
 else{

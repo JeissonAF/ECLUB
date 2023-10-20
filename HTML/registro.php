@@ -44,7 +44,7 @@
 
 
         <input class="botonreg" type="submit" value="Registrar">
-        <p><a href="../ENTRENADOR/ENTRENADOR/login.html">¿Ya tengo cuenta?</a></p>
+        <p><a href="../HTML/login.php">¿Ya tengo cuenta?</a></p>
     </section>
     </form>
     <video muted autoplay loop>
