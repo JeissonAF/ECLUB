@@ -301,8 +301,8 @@ margin: 0rem !important;
                   <div class="text-color-orange"><a href="https://www.google.com/maps/@4.5547581,-74.0950576,3a,75y,233.37h,78.76t/data=!3m7!1e1!3m5!1sckD4X6maiR-0XoayqjEHNw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DckD4X6maiR-0XoayqjEHNw%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D181.42116%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192?entry=ttu">Dale Click</a></div>
                 </div>
                 <div id="w-node-a5c3a78a-1e33-3aa5-a477-8e28ffea0a5d-c20bf264" class="feature-text">
-                  <div class="text-color-grey">MALUMA</div>
-                  <div class="text-color-orange">BRYAN MYERS</div>
+                  <div class="text-color-grey">Galeria</div>
+                  <div class="text-color-orange">Dale Click</div>
                 </div>
               </div>
             </div>
@@ -400,7 +400,7 @@ margin: 0rem !important;
                  </div><div class="footer-right"> 
                      <div class="footer-link_component"> 
                          <div class="footer-links"> 
-                             <div>Nose</div> 
+                             <div></div> 
                              <a href="#" class="footer_link">Link</a> 
                              <a href="#" class="footer_link">Link</a> 
                              <a href="#" class="footer_link">Link</a> 
@@ -413,16 +413,13 @@ margin: 0rem !important;
                      <a href="#" class="footer_link">Link</a> 
                      <a href="#" class="footer_link">Link</a> 
                  </div></div><div class="padding-left padding-huge tablet-none"> 
-                     <div class="padding-bottom padding-medium">¿QUIERE CAMBIAR ALGO? DIGALO</div> 
+                     <div class="padding-bottom padding-medium">¿TIENES ALGUNA SUGERENCIA?</div> 
                      <div class="w-form"> 
                          <form id="email-form" name="email-form" data-name="Email Form" method="get" class="footer-form" data-wf-page-id="651210b25c0f9212c20bf264" data-wf-element-id="175374ce-736a-d26f-4c87-c838d055bd97"> 
-                             <input type="email" class="text-field w-input" maxlength="256" name="email-2" data-name="Email 2" placeholder="ESCRIBALO AQUI SIN MIEDO" id="email-2" required=""/> 
+                             <input type="email" class="text-field w-input" maxlength="256" name="email-2" data-name="Email 2" placeholder="ESCRIBE AQUI" id="email-2" required=""/> 
                              <input type="submit" value="ENVIAR" data-wait="Please wait..." class="button is-footer w-button"/> 
                          </form> 
-                         <div class="w-form-done"> 
-                             <div>Thank you! Your submission has been received!</div> 
-                         </div> 
-                         <div class="w-form-fail"><div>Oops! Something went wrong while submitting the form.</div> 
+                         <
                      </div> 
                  </div> 
              </div> 
@@ -432,7 +429,7 @@ margin: 0rem !important;
   
                      </div> 
                      <div class="display-horizontal space-between mobile-none"> 
-                         <div class="text-color-grey">© 2023 LO RESERVO TODO.</div> 
+                         <div class="text-color-grey">COPYRIRGHT©2023 E-CLUB</div> 
                          <div class="logo-component"> 
                              <div class="w-embed"> 
                                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/> 
