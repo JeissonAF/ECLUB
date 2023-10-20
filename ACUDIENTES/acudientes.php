@@ -64,7 +64,7 @@
             <div class="swiper-txt">
                  <h1>Galeria</h1>
                  <p>
-                    Aqui ves las fotos subidas
+                    Aquí ves las fotos subidas
                  </p>
             </div>
 <a href="#"><img src="fotos/sub 15.jpeg" alt=""></a>
@@ -75,10 +75,10 @@
             <div class="swiper-txt">
                 <h1>Mapa</h1>
                  <p>
-                  lugar de la cancha 
+                  Lugar de la cancha 
                  </p>
             </div>
-<a href="https://www.realmadrid.com/">
+<a href="#">
     <img src="fotos/sub 17.jpeg" alt="">
 </a>
         </div>
@@ -89,7 +89,7 @@
             <div class="swiper-txt">
                  <h1>Horario</h1>
                  <p>
-                   Dias de entrenamiento 
+                   Días de entrenamiento 
                  </p>
             </div>
 <a href="../horarios\view\horariosjugadores.php"><img src="fotos/sub 9.jpeg" alt=""></a>
