@@ -104,13 +104,16 @@
               <label  class=" fs-5 py-1 ">Dia</label>
               <select class="form-select" name="dia" id="">
                 <option value="" selected disabled>Selecciona el día</option>
-                <option value="1">Lunes</option>
-                <option value="2">Martes</option>
-                <option value="3">Miércoles</option>
-                <option value="4">Jueves</option>
-                <option value="5">Viernes</option>
-                <option value="6">Sábado</option>
-                <option value="7">Domingo</option>
+                <?php
+//colocar el nombre del archivo de la conexion
+include("../../conexion.php");
+//se declaran variables para el cargue de la informacion y el query de seleccion de datos de la tabla que se desea 
+$dia="SELECT * FROM dia";
+                  $resul=mysqli_query($con,$dia);
+                  while($valores = mysqli_fetch_array($resul)){
+                    echo '<option value="'.$valores['dia'].'">'.$valores['dia']. '</option>';
+                  }
+?>
               </select>
             </div>
             <div class="">

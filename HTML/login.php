@@ -29,7 +29,7 @@
 
     <div class="login-box">
         <h2>Inicia sesión</h2>
-        <form method="POST" action="../../insesion.php" >
+        <form method="POST" action="../insesion.php" >
           <div class="user-box">
             <input type="text" name="correo" required="">
             <label>Correo
@@ -40,7 +40,7 @@
             <label>Contraseña</label>
           </div>
           <a class="botonlog">
-          <input type="submit" name="Iniciar Sesión" value="Iniciar Sesión" class="botonlog botonlogbt">
+          <input type="submit" name="iniciar" value="Iniciar Sesión" class="botonlog botonlogbt">
             <span></span>
             <span></span>
             <span></span>
