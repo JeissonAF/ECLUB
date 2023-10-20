@@ -228,7 +228,7 @@ margin: 0rem !important;
               <p class="text-color-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/> Suspendisse varius enim in eros elementum tristique. </p>
               <div class="margin-top margin-medium">
                 <div class="w-layout-grid grid-2col is-hero">
-                  <a id="w-node-_93af9647-aa1e-9499-d986-d6bb8d836070-c20bf264" href="../../HTML/registro.php" class="button is-secondary w-button">Registrate</a>
+                  <a id="w-node-_93af9647-aa1e-9499-d986-d6bb8d836070-c20bf264" href="../../../HTML/registro.php" class="button is-secondary w-button">Registrate</a>
                 </div>
               </div>
             </div>
