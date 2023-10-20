@@ -16,7 +16,7 @@
         </a>
         <nav class="barra">
            <a href="../horarios../view/horariosjugadores.php" class="nav-link">Horarios</a>
-            <a href="../HTML/galeria.html" class="nav-link">Galeria</a>
+            <!-- <a href="../HTML/galeria.html" class="nav-link">Galeria</a> -->
             <a href="https://chat-pc.glide.page/" class="nav-link">Chat</a>
             <a href= "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3977.2150011812196!2d-74.09816167424201!3d4.555309892899208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9899eaf6b9c1%3A0x2066d62bb9b08d52!2sCADE%20La%20Victoria!5e0!3m2!1ses!2sus!4v1697747665381!5m2!1ses!2sus"  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" > </iframe>Ubicación de cancha </a>
         </nav>

@@ -34,8 +34,8 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam placeat, inventore sapiente, sequi voluptate ea nostrum quis qui tempora quia vel fuga vero, animi nemo consectetur saepe? Vitae, eos rerum.
                 </p>
                 <div class="butons">
-                    <a href="../horarios../view/horario.php" class="btn-1">EDITAR HORARIOS</a>
-                    <a href="contacto.html" class="btn-1">CONTACTO</a>
+                    <a href="../../horarios/view/horario.php" class="btn-1">EDITAR HORARIOS</a>
+                    <a href="contacto.php" class="btn-1">CONTACTO</a>
                 </div>
             </div>
         </div>
@@ -47,21 +47,21 @@
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
-            <a href="../entrenador_pag/fisico.html">Leer mas</a>
+            <a href="../entrenador_pag/fisico.php">Leer mas</a>
         </div>
         <div class="information-1">
             <h3>TECNICO</h3> 
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
-            <a href="../entrenador_pag/tecnico.html">Leer mas</a>
+            <a href="../entrenador_pag/tecnico.php">Leer mas</a>
         </div>
         <div class="information-1">
             <h3>TACTICO</h3> 
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
-            <a href="../entrenador_pag/tactico.html">Leer mas</a>
+            <a href="../entrenador_pag/tactico.php">Leer mas</a>
         </div>
 
     </section>
@@ -136,7 +136,7 @@
         <div class="price-1">
         <h3>PEP GUARDIOLA</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga iusto odit aut temporibus maxime, necessitatibus amet ratione quisquam, ipsum ea, maiores est suscipit reprehenderit adipisci soluta incidunt eligendi nesciunt facilis?</p>
-        <a href="pep.html">SABER MAS</a>
+        <a href="pep.php">SABER MAS</a>
         </div>
         </div>
         
@@ -147,7 +147,7 @@
         <div class="price-1">
         <h3>DIEGO SIMEONE</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga iusto odit aut temporibus maxime, necessitatibus amet ratione quisquam, ipsum ea, maiores est suscipit reprehenderit adipisci soluta incidunt eligendi nesciunt facilis?</p>
-        <a href="simeone.html">SABER MAS</a>
+        <a href="simeone.php">SABER MAS</a>
         </div>
         </div>
         
@@ -158,7 +158,7 @@
         <div class="price-1">
         <h3>MARCELO BIELSA</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga iusto odit aut temporibus maxime, necessitatibus amet ratione quisquam, ipsum ea, maiores est suscipit reprehenderit adipisci soluta incidunt eligendi nesciunt facilis?</p>
-        <a href="bielsa.html">SABER MAS</a>
+        <a href="bielsa.php">SABER MAS</a>
         </div>
         </div>
         </div>

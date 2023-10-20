@@ -19,7 +19,7 @@ if(isset($_POST['iniciar'])){
                 switch ($usuario['id_rol']){
                     case '1':
                         //Entrenador
-                        header("location: ENTRENADOR/entrenador_pag/pag1.html");
+                        header("location: ENTRENADOR/entrenador_pag/pag1.php");
                         break;
                     case '2':
                         //Jugador
