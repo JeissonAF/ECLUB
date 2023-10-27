@@ -11,7 +11,7 @@
     <header class="header">
         <a href="#" class="logo">DUEÑO DE LA ESCUELA <br>JUVENTUD BOGOTA</a>
         <nav class="navbar">
-            <a href="../entrenador_pag/pag1.html"  style="--i:1;" class="active">inicio</a>
+            <a href="../entrenador_pag/pag1.php"  style="--i:1;" class="active">inicio</a>
             <a href="#" style="--i:2;">ayuda</a>
         </nav>
     </header>

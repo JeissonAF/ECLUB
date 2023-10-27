@@ -15,7 +15,7 @@
       
     </a>
     <nav class="barra">
-        <a href="../entrenador_pag/pag1.html" class="nav-link">INICIO</a>
+        <a href="../entrenador_pag/pag1.php" class="nav-link">INICIO</a>
         <!-- <a href="../ENTRENADOR/trabajos.html" class="nav-link">TRABAJOS</a>
         <a href="../ENTRENADOR/horarios.html" class="nav-link">HORARIOS</a>
 
